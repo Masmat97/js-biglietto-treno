@@ -1,5 +1,6 @@
 const age = prompt("Inserisci la tua età");
-console.log(`Anni: ${age}`)
+console.log(`Anni: ${age}`);
+document.getElementById("biglietto"); innerHtml
 
 const km = prompt("Inserisci il numero di km da percorrere")
 console.log(`km: ${km}`)
@@ -10,7 +11,8 @@ console.log(`prezzo: ${prezzo}`)
 
 
 const prezzoBiglietto = prezzo * km
-console.log(`prezzoBiglietto: ${prezzoBiglietto}`)
+console.log(`prezzoBiglietto: ${prezzoBiglietto}`);
+
 
 
 if (age < 18)  {
